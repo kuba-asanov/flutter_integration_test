@@ -26,3 +26,7 @@ To get started with integration tests in Dart for Flutter, follow these steps:
 
 ## Example Integration Test
 #### In this repository, in the ``integration_test`` directory, you can find some best examples of integration tests in Dart for Flutter.
+
+
+### Result of this tests from console:
+`11:02 7/7: All tests passed!`
