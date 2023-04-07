@@ -8,11 +8,11 @@ To get started with integration tests in Dart for Flutter, follow these steps:
 
 2. Create a Flutter project using the flutter create command or open an existing Flutter project.
 
-3. In your Flutter project, create a new directory called integration_test at the root level. This is where you will write your integration tests.
+3. In your Flutter project, create a new directory called `integration_test` at the root level. This is where you will write your integration tests.
 
-4. Inside the integration_test directory, create a new Dart file for your integration test. You can name it based on the component or functionality you want to test.
+4. Inside the `integration_test` directory, create a new Dart file for your integration test. You can name it based on the component or functionality you want to test.
 
-5. Open the Dart file for your integration test and import the necessary packages, such as flutter_test for writing Flutter tests and integration_test for running integration tests.
+5. Open the Dart file for your integration test and import the necessary packages, such as `flutter_test` for writing Flutter tests and `integration_test` for running integration tests.
 
 6. Define a test function using the testWidgets function provided by the flutter_test package. This function will contain the actual integration test logic.
 
@@ -25,4 +25,4 @@ To get started with integration tests in Dart for Flutter, follow these steps:
 10. Analyze the test results to verify if your integration test has passed or failed. If it failed, debug the issue and fix it before running the test again.
 
 ## Example Integration Test
-#### In this repository, in the integration_test directory, you can find some best examples of integration tests in Dart for Flutter.
+#### In this repository, in the ``integration_test`` directory, you can find some best examples of integration tests in Dart for Flutter.
