@@ -14,10 +14,6 @@ void main() {
     await app.main();
     await tester.pumpAndSettle();
 
-    // Skipping onboarding
-    await tester.tap(find.byIcon(Icons.close));
-    await tester.pumpAndSettle();
-
     expect(find.text(SS.translate.Search), findsOneWidget);
 
     // Open articles list page

@@ -8,18 +8,12 @@ import 'package:medcheck/helpers/localization.dart';
 import 'package:medcheck/main.dart' as app;
 import 'package:medcheck/widgets/article/date_widget.dart';
 
-import 'helpers/heplers.dart';
-
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('There are three bottom navigator tabs: Search, Articles, Profile', () {
     testWidgets('by default in Search page', (tester) async {
       await app.main();
-      await tester.pumpAndSettle();
-
-      // Skipping onboarding
-      await tester.tap(find.byIcon(Icons.close));
       await tester.pumpAndSettle();
 
       expect(find.text(SS.translate.Search), findsOneWidget);
